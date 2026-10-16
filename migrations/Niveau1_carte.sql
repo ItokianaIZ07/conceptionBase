@@ -11,4 +11,8 @@ INSERT INTO plat(libelle, prix) VALUES
 ('Mi sao', 6000),
 ('Soupe chinois', 5000),
 ('Mofo gasy (les 4)', 1000),
-($$Ranon'ampango$$, 500); # asiana dollar @le echapement ny quote
+-- asiana dollar @le echapement ny quote
+($$Ranon'ampango$$, 500);
+
+-- Vérifications
+SELECT * FROM plat ORDER BY prix DESC;
