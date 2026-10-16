@@ -28,3 +28,13 @@
 
 - **Réponses**:
   - Je place quantite dans une table ligne_commande qui contient les détals de chaque commande.
+
+### Etape 4
+
+- **Schéma relationnel**:
+  - client(**id**, nom)
+  - commande(**id**, date, #id_client)
+
+- **Réponses**:
+  - la clé étrangère est NOT NULL.
+  - Pour ne pas perdre aucune commande il faut utiliser les jointures soit LEFT ou RIGHT(dépend dans l'ordre comment fait la jointure)
